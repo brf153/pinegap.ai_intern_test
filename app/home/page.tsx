@@ -23,7 +23,7 @@ const CardComponent = ({homeData}:{homeData:homeData}) => {
   return (
     <Card className="w-[27vw] rounded-xl flex flex-col gap-4 border-2 border-[#CBD5E1]">
 
-      <div className="bg-[#F1F5F9] w-full flex h-fit px-[5%] py-4 border-b-2 border-[#CBD5E1]">
+      <div className="bg-[#F1F5F9] w-full flex gap-2 h-fit px-[5%] py-4 border-b-2 border-[#CBD5E1]">
         <div className="flex items-center">
           <Image src={homeData.logo} alt="upward" className="w-[3vmax]" />
         </div>
@@ -81,24 +81,24 @@ const CardComponent = ({homeData}:{homeData:homeData}) => {
       <div className="flex flex-col px-4 gap-2 py-2 pb-4">
 
         <div className="flex gap-1">
-          <Image src={quote} alt="quote" className="w-[1vmax]" />
+          <Image src={quote} alt="quote" className="w-[1.2vmax]" />
           <Typography variant="h5" component="div" className="text-[0.8vmax]">
             Earnings Call Q4 2023-24
           </Typography>
           <Typography
-            className="text-[#94A3B8] text-[0.7vmax]"
+            className="text-[#94A3B8] text-[0.7vmax] relative top-1"
           >
             10 APR. 2024
           </Typography>
         </div>
 
         <div className="flex gap-1">
-          <Image src={quote} alt="quote" className="w-[1vmax]" />
+          <Image src={quote} alt="quote" className="w-[1.2vmax]" />
           <Typography variant="h5" component="div" className="text-[0.8vmax]">
             Earnings Call Q4 2023-24
           </Typography>
           <Typography
-            className="text-[#94A3B8] text-[0.7vmax]"
+            className="text-[#94A3B8] text-[0.7vmax] relative top-1"
           >
             10 APR. 2024
           </Typography>
