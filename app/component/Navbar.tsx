@@ -1,12 +1,9 @@
 "use client";
-import React, { ChangeEvent } from "react";
+import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { CiBellOn } from "react-icons/ci";
 import { IoSettingsOutline } from "react-icons/io5";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select, { SelectChangeEvent } from "@mui/material/Select";
+import { SelectChangeEvent } from "@mui/material/Select";
 import logo from "@/public/company_logo.png";
 import Image from "next/image";
 import pic from "@/public/pic.png";
