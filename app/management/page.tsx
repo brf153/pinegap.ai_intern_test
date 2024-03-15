@@ -38,7 +38,7 @@ const Management = (props: Props) => {
 
       <div className="flex w-[70%] mx-auto justify-between mt-10 gap-[5vmax]">
         {upperCard.map((card, index) => (
-          <Card className="w-[20vw] p-4 border border-[#E2E8F0]">
+          <Card key={index} className="w-[20vw] p-4 border border-[#E2E8F0]">
             <h1 className="text-[1.4vmax] font-bold">{card}</h1>
             <p className="text-[#475569]">Avg. Tenure of Executives</p>
           </Card>
@@ -48,7 +48,7 @@ const Management = (props: Props) => {
       <div className="w-[70%] mx-auto justify-center grid grid-cols-3 gap-x-[5vw] gap-y-[6vh] mt-[6vh]">
 {
   Array(6).fill(0).map((_,index)=>(
-        <Card className="w-[20vw]">
+        <Card key={index} className="w-[20vw]">
           <div className="flex p-2 gap-4">
             <RxAvatar className="w-6 h-6 text-[#64748B]" />
             <p className="text-xl font-bold">Tim Cook</p>

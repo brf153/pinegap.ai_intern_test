@@ -158,9 +158,9 @@ export default function Home() {
         <p className="text-[2vmax] pb-[3vh] px-[1.5vw]">Top Insights for you!</p>
         <div className="grid grid-cols-3 gap-8">
         {
-            homeData.map((home) => {
+            homeData.map((home,index) => {
                 return (
-                    <CardComponent homeData={home} />
+                    <CardComponent key={index} homeData={home} />
                     )
                 })
             }
